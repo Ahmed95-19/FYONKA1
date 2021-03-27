@@ -1,0 +1,178 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #14213d;
+    height: 500vh;
+}
+@font-face {
+    font-family: 'beautiful_people_personal_uRg';
+    src: url("beautifulpeoplepersonaluse-de0g-webfont.woff2") format('woff2'), url("beautifulpeoplepersonaluse-de0g-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: 10px auto;
+    align-items: center;
+}
+.cart-area,
+.logo-holder,
+.navlinks {
+    display: flex;
+}
+.logo-holder {
+    flex: 1;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.logo-holder img {
+    width: 15%;
+}
+.chart {
+    font-size: 60px;
+}
+.logo-textar {
+    color: oldlace;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'beautiful_people_personal_uRg';
+}
+nav {
+    flex: 2;
+}
+.navlinks {
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    color: oldlace;
+    font-size: 18px;
+}
+.navlinks a:hover {
+    color: #EF5161;
+    font-weight: bold;
+}
+.cart-area {
+    flex: 1;
+    justify-content: flex-end;
+}
+.cart-area img {
+    width: 20%;
+    float: right;
+    filter: invert(98%) sepia(6%) saturate(267%) hue-rotate(142deg) brightness(117%) contrast(100%);
+}
+.free-deliveryHolder {
+    margin: 15px auto 0;
+    /*transform: translateX(12px);*/
+    padding: 3px;
+    width: 290px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #EF5161;
+    text-align: center;
+}
+.free-deliveryHolder img {
+    width: 16%;
+    float: left;
+    margin-left: 25px;
+}
+.main-slide {
+    display: flex;
+    justify-content: center;
+}
+.main-slide img {
+    width: 8%;
+    float: left;
+    margin: 45px 0px 0px 0px;
+    filter: invert(94%) sepia(94%) saturate(25%) hue-rotate(353deg) brightness(104%) contrast(108%);
+}
+.text-title {
+    color: oldlace;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 60px;
+}
+.announce-txt {
+    color: oldlace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Markazi', cursive;
+    margin-top: 1px;
+}
+.order-confirmed {
+    display: flex;
+}
+.order-confirmed img {
+    width: 40%;
+    margin-left: 15px;
+}
+.order-confirmed h3 {
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    flex: 1;
+}
+.free-deliveryHolderSecond {
+    margin: 15px auto 0;
+    /*transform: translateX(12px);*/
+    padding: 3px;
+    width: 390px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #EF5161;
+    text-align: center;
+}
+.announce-txtSecond {
+    color: oldlace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Markazi', cursive;
+    margin-top: 9px;
+}
+.free-deliveryHolderSecond img {
+    width: 20%;
+}
+.arrow {
+    font-size: 80px;
+    color: oldlace;
+}
+.free-deliveryPara {
+    color: oldlace;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Tajawal', sans-serif;
+}
+.cutLine {
+    width: 80%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(211, 206, 206, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+.weddingPlanner {
+    text-align: center;
+}
+.weddingPlannerImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.weddingPlannerImg img {
+    width: 25%;
+}
+.plannerText {
+    color: oldlace;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.plannerPara {
+    color: oldlace;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}

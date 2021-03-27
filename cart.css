@@ -1,0 +1,265 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #14213d;
+    height: 200vh;
+}
+@font-face {
+    font-family: 'beautiful_people_personal_uRg';
+    src: url("beautifulpeoplepersonaluse-de0g-webfont.woff2") format('woff2'), url("beautifulpeoplepersonaluse-de0g-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: 10px auto;
+    align-items: center;
+}
+.cart-area,
+.logo-holder,
+.navlinks {
+    display: flex;
+}
+.logo-holder {
+    flex: 1;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.logo-holder img {
+    width: 15%;
+}
+.chart {
+    font-size: 60px;
+}
+.logo-textar {
+    color: oldlace;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'beautiful_people_personal_uRg';
+}
+nav {
+    flex: 2;
+}
+.navlinks {
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    color: oldlace;
+    font-size: 18px;
+}
+.navlinks a:hover {
+    color: #EF5161;
+    font-weight: bold;
+}
+.free-deliveryHolder {
+    margin: 15px auto 0;
+    padding: 3px;
+    width: 290px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #EF5161;
+    text-align: center;
+}
+.free-deliveryHolder img {
+    width: 16%;
+    float: left;
+    margin-left: 25px;
+}
+.announce-txt {
+    color: oldlace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Markazi', cursive;
+    margin-top: 1px;
+}
+.cutLine {
+    width: 80%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(211, 206, 206, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+.ShoppingCart {
+    padding-top: 40px;
+}
+.ShoppingCart h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: oldlace;
+    letter-spacing: 4px;
+}
+.ProductsListingPhaseOne {
+    display: flex;
+}
+.ProductsListingPhaseOne img {
+    width: 7%;
+    margin: 20px 0 0 8%;
+}
+.ProductsListingPhaseOne h3 {
+    color: oldlace;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 60px 0 0 2.3%;
+}
+.ProductQty h3 {
+    color: oldlace;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+.QtySt {
+    width: 40px;
+    height: 20px;
+    margin: 53px 0 0 1%;
+    background-color: transparent;
+    color: oldlace;
+    font-weight: bold;
+    border-color: white;
+    outline: none;
+}
+::placeholder {
+    color: oldlace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.ProductsListingPhaseTwo {
+    display: flex;
+}
+.ProductsListingPhaseTwo img {
+    width: 7%;
+    margin: 20px 0 0 8%;
+}
+.ProductsListingPhaseTwo h3 {
+    color: oldlace;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 60px 0 0 2.2%;
+}
+.ProductsListingPhaseThree {
+    display: flex;
+}
+.ProductsListingPhaseThree img {
+    width: 7%;
+    margin: 20px 0 0 8%;
+}
+.ProductsListingPhaseThree h3 {
+    color: oldlace;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 60px 0 0 2.3%;
+}
+.CTA {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #EF5161;
+    width: 80px;
+    height: 30px;
+    margin: 53px 0 0 5%;
+    color: oldlace;
+    font-weight: bold;
+    border-color: #EF5161;
+    outline: none;
+}
+
+.CTAdd {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #3ea324;
+    width: 170px;
+    height: 31px;
+    margin: 51.8px 0 0 10%;
+    color: oldlace;
+    font-weight: bold;
+    border-color: #3ea324;
+    outline: none;
+}
+.CTAdd:hover {
+    background-color: transparent;
+    border-color: oldlace;
+}
+.ProductPrice {
+    margin: 15px auto 0;
+    padding: 3px;
+    width: 60px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #EF5161;
+    text-align: center;
+}
+.cutLineFinal {
+    width: 100%;
+    border: 0;
+    margin-top: 20px;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(211, 206, 206, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+.TotalCost {
+    display: flex;
+    justify-content: center;
+}
+.TotalCost h2 {
+    text-align: center;
+    color: oldlace;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.InvoiceContainer {
+    display: flex;
+    justify-content: center;
+}
+.totalText {
+    text-align: left;
+    color: oldlace;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.totalNumber {
+    text-align: center;
+    margin-left: 4%;
+    color: oldlace;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+  background-color: #3ea324;
+    border-radius: 15px;
+    padding: 3px;
+    width: 190px;
+    height: 52px;    
+}
+.PayButton {
+    display: flex;
+    justify-content: center;
+}
+.CT-Pay {
+    background-color: #EF5161;
+    border-color: #EF5161;
+    outline: none;
+    color: oldlace;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 15px;
+    padding: 3px;
+    width: 490px;
+    height: 52px;
+    cursor: pointer;
+}
+.CT-Pay:hover {
+    background-color: transparent;
+    border-color: oldlace;
+}
